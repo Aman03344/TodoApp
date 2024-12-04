@@ -1,0 +1,82 @@
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  /* border: 1px solid red; */
+}
+body {
+
+  transition: 0.3s ease-in-out;
+}
+
+.nav-bar {
+  background-color: #282c34;
+
+}
+
+#mode {
+  background-color: #FFD333;
+  color: #282c34;
+  border: none;
+  padding: 8px 16px;
+  font-weight: bold;
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+#mode:hover {
+  background-color: #eeb704;
+}
+
+input {
+  font-size: 16px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  
+}
+
+input:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-color: #FFD333;
+}
+
+button {
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+ul li {
+  position: relative;
+  background-color: #f8f9fa;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+ul li:hover {
+  background-color: #f1f3f5;
+  transform: scale(1.03);
+}
+
+
+#clearAll {
+  border-radius: 8px;
+  background-color: #dc3545;
+  color: white;
+  font-weight: bold;
+  transition:  0.3s ease;
+}
+
+#clearAll:hover {
+  background-color: #c82333;
+}
